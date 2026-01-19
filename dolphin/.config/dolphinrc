@@ -4,7 +4,6 @@ MenuBar=Disabled
 PreviewSize=64
 
 [General]
-LockPanels=false
 ShowStatusBar=FullWidth
 Version=202
 ViewPropsTimestamp=2026,1,18,23,27,37.327
@@ -22,9 +21,9 @@ MenuBar=Disabled
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
 
+[UiSettings]
+ColorScheme=DankMatugen
+
 [ViewPropertiesDialog]
 2 screens: Height=513
 2 screens: Width=432
-
-[UiSettings]
-ColorScheme=DankMatugen
