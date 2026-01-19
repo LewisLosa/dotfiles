@@ -81,6 +81,7 @@ environment {
   TERMINAL "kitty"
   BROWSER "zen"
   EDITOR "zeditor"
+  TERM "kitty"
 }
 
 binds {

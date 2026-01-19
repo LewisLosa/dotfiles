@@ -23,5 +23,8 @@
     "enabled": true,
     "terminalApp": "kitty --hold",
     "shellPath": "/etc/profiles/per-user/eyups/bin/zsh"
+  },
+  "nixMonitor": {
+    "enabled": true
   }
 }

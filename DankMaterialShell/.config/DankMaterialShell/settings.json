@@ -113,6 +113,13 @@
       "id": "plugin_dankKDEConnect",
       "enabled": true,
       "width": 50
+    },
+    {
+      "id": "diskUsage",
+      "enabled": true,
+      "width": 50,
+      "instanceId": "mklh1mtp3rnojsxob5s9jsv416a7en",
+      "mountPath": "/"
     }
   ],
   "showWorkspaceIndex": false,
