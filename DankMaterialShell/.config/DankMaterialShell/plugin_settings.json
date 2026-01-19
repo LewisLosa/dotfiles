@@ -10,5 +10,18 @@
   "calculator": {
     "enabled": true,
     "trigger": "="
+  },
+  "dankKDEConnect": {
+    "enabled": true,
+    "selectedDeviceId": "b3077b91cf1e407f9583b499a9e4b0ae"
+  },
+  "tailscale": {
+    "enabled": true,
+    "refreshInterval": 5
+  },
+  "dockerManager": {
+    "enabled": true,
+    "terminalApp": "kitty --hold",
+    "shellPath": "/etc/profiles/per-user/eyups/bin/zsh"
   }
 }
