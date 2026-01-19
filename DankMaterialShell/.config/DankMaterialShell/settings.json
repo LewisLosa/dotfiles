@@ -1,8 +1,13 @@
 {
-  "currentThemeName": "dynamic",
-  "currentThemeCategory": "generic",
-  "customThemeFile": "",
-  "registryThemeVariants": {},
+  "currentThemeName": "custom",
+  "currentThemeCategory": "registry",
+  "customThemeFile": "/home/eyups/.config/DankMaterialShell/themes/catppuccin/theme.json",
+  "registryThemeVariants": {
+    "catppuccin": {
+      "flavor": "mocha",
+      "accent": "lavender"
+    }
+  },
   "matugenScheme": "scheme-tonal-spot",
   "runUserMatugenTemplates": true,
   "matugenTargetMonitor": "",
@@ -24,11 +29,11 @@
   "showSeconds": false,
   "useFahrenheit": false,
   "nightModeEnabled": false,
-  "animationSpeed": 3,
+  "animationSpeed": 1,
   "customAnimationDuration": 500,
   "wallpaperFillMode": "Fill",
   "blurredWallpaperLayer": true,
-  "blurWallpaperOnOverview": true,
+  "blurWallpaperOnOverview": false,
   "showLauncherButton": true,
   "showWorkspaceSwitcher": true,
   "showFocusedWindow": true,
@@ -55,7 +60,7 @@
   "controlCenterShowBrightnessIcon": false,
   "controlCenterShowBrightnessPercent": false,
   "controlCenterShowMicIcon": false,
-  "controlCenterShowMicPercent": false,
+  "controlCenterShowMicPercent": true,
   "controlCenterShowBatteryIcon": false,
   "controlCenterShowPrinterIcon": false,
   "showPrivacyButton": true,
@@ -102,13 +107,6 @@
       "id": "darkMode",
       "enabled": true,
       "width": 50
-    },
-    {
-      "id": "diskUsage",
-      "enabled": true,
-      "width": 100,
-      "instanceId": "mkcl6bnwzssnkeexjovbl8k7oiveip",
-      "mountPath": "/"
     }
   ],
   "showWorkspaceIndex": false,
@@ -139,33 +137,7 @@
   "keyboardLayoutNameCompactMode": false,
   "runningAppsCurrentWorkspace": false,
   "runningAppsGroupByApp": false,
-  "appIdSubstitutions": [
-    {
-      "pattern": "Spotify",
-      "replacement": "spotify",
-      "type": "exact"
-    },
-    {
-      "pattern": "beepertexts",
-      "replacement": "beeper",
-      "type": "exact"
-    },
-    {
-      "pattern": "home assistant desktop",
-      "replacement": "homeassistant-desktop",
-      "type": "exact"
-    },
-    {
-      "pattern": "com.transmissionbt.transmission",
-      "replacement": "transmission-gtk",
-      "type": "contains"
-    },
-    {
-      "pattern": "^steam_app_(\\d+)$",
-      "replacement": "steam_icon_$1",
-      "type": "regex"
-    }
-  ],
+  "appIdSubstitutions": [],
   "centeringMode": "index",
   "clockDateFormat": "",
   "lockDateFormat": "",
@@ -176,13 +148,13 @@
   "appLauncherGridColumns": 4,
   "spotlightCloseNiriOverview": true,
   "niriOverviewOverlayEnabled": true,
-  "useAutoLocation": true,
+  "useAutoLocation": false,
   "weatherEnabled": true,
-  "networkPreference": "wifi",
+  "networkPreference": "auto",
   "vpnLastConnected": "",
-  "iconTheme": "Papirus",
+  "iconTheme": "Papirus-Dark",
   "cursorSettings": {
-    "theme": "System Default",
+    "theme": "catppuccin-mocha-dark-cursors",
     "size": 24,
     "niri": {
       "hideWhenTyping": false,
@@ -199,7 +171,7 @@
   },
   "launcherLogoMode": "os",
   "launcherLogoCustomPath": "",
-  "launcherLogoColorOverride": "",
+  "launcherLogoColorOverride": "primary",
   "launcherLogoColorInvertOnMode": false,
   "launcherLogoBrightness": 0.5,
   "launcherLogoContrast": 1,
@@ -220,17 +192,17 @@
   "soundVolumeChanged": true,
   "soundPluggedIn": true,
   "acMonitorTimeout": 0,
-  "acLockTimeout": 120,
+  "acLockTimeout": 0,
   "acSuspendTimeout": 0,
   "acSuspendBehavior": 0,
   "acProfileName": "",
   "batteryMonitorTimeout": 0,
-  "batteryLockTimeout": 120,
+  "batteryLockTimeout": 0,
   "batterySuspendTimeout": 0,
   "batterySuspendBehavior": 0,
   "batteryProfileName": "",
   "batteryChargeLimit": 100,
-  "lockBeforeSuspend": true,
+  "lockBeforeSuspend": false,
   "loginctlLockIntegration": true,
   "fadeToLockEnabled": true,
   "fadeToLockGracePeriod": 5,
@@ -245,7 +217,7 @@
   "gtkThemingEnabled": false,
   "qtThemingEnabled": false,
   "syncModeWithPortal": true,
-  "terminalsAlwaysDark": true,
+  "terminalsAlwaysDark": false,
   "runDmsMatugenTemplates": true,
   "matugenTemplateGtk": true,
   "matugenTemplateNiri": true,
@@ -255,7 +227,7 @@
   "matugenTemplateQt6ct": true,
   "matugenTemplateFirefox": true,
   "matugenTemplatePywalfox": true,
-  "matugenTemplateZenBrowser": false,
+  "matugenTemplateZenBrowser": true,
   "matugenTemplateVesktop": true,
   "matugenTemplateEquibop": true,
   "matugenTemplateGhostty": true,
@@ -268,17 +240,17 @@
   "matugenTemplateKcolorscheme": true,
   "matugenTemplateVscode": true,
   "showDock": false,
-  "dockAutoHide": true,
-  "dockGroupByApp": true,
-  "dockOpenOnOverview": true,
+  "dockAutoHide": false,
+  "dockGroupByApp": false,
+  "dockOpenOnOverview": false,
   "dockPosition": 1,
-  "dockSpacing": 8,
+  "dockSpacing": 4,
   "dockBottomGap": 0,
-  "dockMargin": 15,
-  "dockIconSize": 37,
+  "dockMargin": 0,
+  "dockIconSize": 40,
   "dockIndicatorStyle": "circle",
   "dockBorderEnabled": false,
-  "dockBorderColor": "secondary",
+  "dockBorderColor": "surfaceText",
   "dockBorderOpacity": 1,
   "dockBorderThickness": 1,
   "dockIsolateDisplays": false,
@@ -318,7 +290,7 @@
   "osdPowerProfileEnabled": true,
   "osdAudioOutputEnabled": true,
   "powerActionConfirm": true,
-  "powerActionHoldDuration": 1,
+  "powerActionHoldDuration": 0.5,
   "powerMenuActions": [
     "reboot",
     "logout",
@@ -340,21 +312,14 @@
   "updaterCustomCommand": "",
   "updaterTerminalAdditionalParams": "",
   "displayNameMode": "model",
-  "screenPreferences": {
-    "wallpaper": [
-      "all"
-    ],
-    "toast": [
-      "all"
-    ]
-  },
-  "showOnLastDisplay": {
-    "toast": true
-  },
+  "screenPreferences": {},
+  "showOnLastDisplay": {},
   "niriOutputSettings": {
-    "BOE 0x0964 Unknown": {
-      "vrrOnDemand": false,
-      "hotCorners": null
+    "Lenovo Group Limited R25i-30 U4W0T38X": {
+      "vrrOnDemand": true
+    },
+    "LG Electronics LG FULL HD 0x01010101": {
+      "vrrOnDemand": true
     }
   },
   "hyprlandOutputSettings": {},
@@ -379,49 +344,24 @@
         "weather"
       ],
       "rightWidgets": [
-        {
-          "id": "systemTray",
-          "enabled": true
-        },
-        {
-          "id": "colorPicker",
-          "enabled": true
-        },
-        {
-          "id": "clipboard",
-          "enabled": true
-        },
-        {
-          "id": "cpuUsage",
-          "enabled": true
-        },
-        {
-          "id": "memUsage",
-          "enabled": true
-        },
-        {
-          "id": "notificationButton",
-          "enabled": true
-        },
-        {
-          "id": "battery",
-          "enabled": true
-        },
-        {
-          "id": "controlCenterButton",
-          "enabled": true
-        }
+        "systemTray",
+        "clipboard",
+        "cpuUsage",
+        "memUsage",
+        "notificationButton",
+        "battery",
+        "controlCenterButton"
       ],
-      "spacing": 0,
+      "spacing": 4,
       "innerPadding": 4,
       "bottomGap": 0,
       "transparency": 1,
       "widgetTransparency": 1,
-      "squareCorners": true,
+      "squareCorners": false,
       "noBackground": false,
-      "gothCornersEnabled": true,
+      "gothCornersEnabled": false,
       "gothCornerRadiusOverride": false,
-      "gothCornerRadiusValue": 20,
+      "gothCornerRadiusValue": 12,
       "borderEnabled": false,
       "borderColor": "surfaceText",
       "borderOpacity": 1,
@@ -432,14 +372,20 @@
       "widgetOutlineThickness": 1,
       "fontScale": 1,
       "autoHide": false,
-      "autoHideDelay": 289,
+      "autoHideDelay": 250,
+      "showOnWindowsOpen": false,
       "openOnOverview": false,
       "visible": true,
       "popupGapsAuto": true,
       "popupGapsManual": 4,
       "maximizeDetection": true,
+      "scrollEnabled": true,
+      "scrollXBehavior": "column",
+      "scrollYBehavior": "workspace",
       "shadowIntensity": 0,
-      "shadowColorMode": "text"
+      "shadowOpacity": 60,
+      "shadowColorMode": "text",
+      "shadowCustomColor": "#000000"
     }
   ],
   "desktopClockEnabled": false,
@@ -510,11 +456,7 @@
   ],
   "systemMonitorVariants": [],
   "desktopWidgetPositions": {},
-  "desktopWidgetGridSettings": {
-    "0x0964": {
-      "enabled": true
-    }
-  },
+  "desktopWidgetGridSettings": {},
   "desktopWidgetInstances": [],
   "desktopWidgetGroups": [],
   "builtInPluginSettings": {
