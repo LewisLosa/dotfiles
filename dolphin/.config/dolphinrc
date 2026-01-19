@@ -1,0 +1,30 @@
+MenuBar=Disabled
+
+[DetailsMode]
+PreviewSize=64
+
+[General]
+LockPanels=false
+ShowStatusBar=FullWidth
+Version=202
+ViewPropsTimestamp=2026,1,18,23,27,37.327
+
+[IconsMode]
+PreviewSize=112
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
+
+[ViewPropertiesDialog]
+2 screens: Height=513
+2 screens: Width=432
+
+[UiSettings]
+ColorScheme=DankMatugen
