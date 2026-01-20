@@ -22,7 +22,8 @@
   "dockerManager": {
     "enabled": true,
     "terminalApp": "kitty --hold",
-    "shellPath": "/etc/profiles/per-user/eyups/bin/zsh"
+    "shellPath": "/etc/profiles/per-user/eyups/bin/zsh",
+    "groupByCompose": false
   },
   "nixMonitor": {
     "enabled": true

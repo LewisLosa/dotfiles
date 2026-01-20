@@ -40,13 +40,12 @@ cursor {
 
 // Zen Browser PiP mode.
 window-rule {
-    match app-id="zen" title="^Picture-in-Picture$"
-    match app-id="zen" title="^Extension: $"
+    match app-id="zen-beta" title="^Picture-in-Picture$"
     open-floating true
 }
 
 window-rule {
-    match app-id="zen"
+    match app-id="zen-beta"
     match app-id="kitty"
     draw-border-with-background false
 }
@@ -65,6 +64,19 @@ window-rule {
 window-rule {
     match app-id=r#"org.prismlauncher.PrismLauncher$"#
     open-floating true
+}
+window-rule {
+    match app-id="zen-beta|firefox|firefox-beta|chromium|google-chrome"
+    match title="^Extension: .*"
+    open-floating true
+}
+
+window-rule {
+    match app-id="org.pulseaudio.pavucontrol"
+    open-floating true
+    min-width 800
+    min-height 600
+    default-floating-position x=570 y=250 relative-to="top-left"
 }
 
 // Clipboard history
