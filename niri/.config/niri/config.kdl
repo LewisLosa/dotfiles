@@ -37,13 +37,6 @@ cursor {
     hide-after-inactive-ms 3000
 }
 
-
-// Zen Browser PiP mode.
-window-rule {
-    match app-id="zen-beta" title="^Picture-in-Picture$"
-    open-floating true
-}
-
 window-rule {
     match app-id="zen-beta"
     match app-id="kitty"
@@ -55,22 +48,15 @@ window-rule {
     geometry-corner-radius 12
     clip-to-geometry true
 }
-// Open DMS windows as floating by default
+// floating
 window-rule {
+    match app-id="zen-beta|firefox|firefox-beta|chromium|google-chrome" title="^Picture-in-Picture$"
     match app-id=r#"org.quickshell$"#
-    open-floating true
-}
-
-window-rule {
     match app-id=r#"org.prismlauncher.PrismLauncher$"#
+    match app-id="qimgv"
+    match app-id="mpv"
     open-floating true
 }
-window-rule {
-    match app-id="zen-beta|firefox|firefox-beta|chromium|google-chrome"
-    match title="^Extension: .*"
-    open-floating true
-}
-
 window-rule {
     match app-id="org.pulseaudio.pavucontrol"
     open-floating true
